@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+.tasksInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.taskWrapper {
+  border: 2px solid rgb(133, 133, 133);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.taskTitle {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.taskSubtitle {
+  font-size: smaller;
+  font-style: italic;
+}
+
+.completed {
+  text-decoration: wavy;
+  border: 1px solid green;
+  background-color: black;
+}
+
+.input {
+  height: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.app_button {
+  border-radius: 20px;
+
+  padding: 10px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styless.css" />
+  </head>
+  <body>
+    <div class="todo-container">
+      <h1>To-Do List</h1>
+      <div class="tasksInputs">
+        <input
+          class="input"
+          type="text"
+          id="taskInputTitle"
+          placeholder="Заголовок задачи"
+        />
+        <input
+          class="input"
+          type="text"
+          id="taskInputSubtitle"
+          placeholder="Описание задачи"
+        />
+      </div>
+      <ul class="taskList" id="taskList"></ul>
+      <button class="app_button" onclick="addTask()">Добавить задачу</button>
+      <button class="app_button" onclick="clearTasks()">Очистить список</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
